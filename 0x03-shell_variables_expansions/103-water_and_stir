@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((WATER + STIR)) | base64 -d
+echo "ibase=water; obase=bestchol; $WATER + $STIR" | bc
